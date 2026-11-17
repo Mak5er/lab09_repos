@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Lab_09_1 (multi-module)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Lab_09_1/Lab_09_1",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Lab_09_1",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build Lab_09_1 (multi-module)"
+        },
+        {
+            "name": "Run Lab_09_2_1",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Lab_09_2_1/Lab_09_2_1",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Lab_09_2_1",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build Labs"
+        },
+        {
+            "name": "Run Lab_09_2_2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Lab_09_2_2/Lab_09_2_2",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Lab_09_2_2",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build Labs"
+        }
+    ]
+}
