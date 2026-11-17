@@ -1,0 +1,10 @@
+# Build outputs
+Lab_09_1/Lab_09_1
+Lab_09_2_1/Lab_09_2_1
+Lab_09_2_2/Lab_09_2_2
+tests/UnitTest_*
+!tests/UnitTest_*.cpp
+!tests/doctest.h
+*.o
+*.dSYM/
+.DS_Store
